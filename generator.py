@@ -21,6 +21,6 @@ for char in text:
     word += char
 
 with open("Output.txt", "w") as text_File:
-  text_File.write("word")
+  text_File.write(word)
 
 print( 3 * '\n' + '\033[92m' + word + '\n' * 3)
